@@ -1,0 +1,7 @@
+.button-arrow {
+    transition: transform 0.5s ease;
+}
+
+.view-button:hover > .button-arrow {
+    transform: rotate(90deg);
+} 
