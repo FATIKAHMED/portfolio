@@ -4,12 +4,12 @@ import "./Landing_Page.css";
 function Landing_page() {
   return (
     <>
-      <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-3 bg-red-400 ">
-        <h1 className="md:text-5xl text-3xl font-normal text-white">
-          Hellow, I'm
+      <div className=" h-[100vh] flex flex-col items-center justify-center gap-3 bg-gray-800">
+        <h1 className="md:text-5xl text-2xl font-normal text-white">
+          Hello, I'm
           <span className="text-pink-800">Fatik Ahmed Khan</span>,
         </h1>
-        <h1 className="md:text-5xl text-3xl font-normal text-white">
+        <h1 className="md:text-5xl text-2xl font-normal text-white">
           I'm full stack web developer
         </h1>
         <button className="view-button flex items-center gap-5 text-2xl font-normal mt-3 text-white border-[3px] pl-5 pr-5 pt-2 pb-2 hover:bg-cyan-500 transition-all duration-150 ease-in">
