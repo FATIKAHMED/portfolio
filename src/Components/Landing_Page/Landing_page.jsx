@@ -4,7 +4,7 @@ import "./Landing_Page.css";
 function Landing_page() {
   return (
     <>
-      <div className=" h-[100vh] flex flex-col items-center justify-center gap-3 bg-gray-800">
+      <div className=" h-[100vh] flex flex-col items-center justify-center gap-3 bg-[#252934]">
         <h1 className="md:text-5xl text-2xl font-normal text-white">
           Hello, I'm
           <span className="text-pink-800">Fatik Ahmed Khan</span>,
@@ -12,7 +12,7 @@ function Landing_page() {
         <h1 className="md:text-5xl text-2xl font-normal text-white">
           I'm full stack web developer
         </h1>
-        <button className="view-button flex items-center gap-5 text-2xl font-normal mt-3 text-white border-[3px] pl-5 pr-5 pt-2 pb-2 hover:bg-cyan-500 transition-all duration-150 ease-in">
+        <button className="view-button flex items-center gap-5 text-xl font-light mt-3 text-white border-[2px] pl-5 pr-5 pt-2 pb-2 hover:bg-cyan-500 transition-all duration-150 ease-in">
           View my work
           <svg
             xmlns="http://www.w3.org/2000/svg"
