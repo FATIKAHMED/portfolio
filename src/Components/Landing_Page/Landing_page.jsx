@@ -5,18 +5,18 @@ function Landing_page() {
   return (
     <>
       <div className=" h-[100vh] flex flex-col items-center justify-center gap-3 bg-[#252934]">
-        <h1 className="md:text-5xl text-2xl font-normal text-white">
+        <h1 className="md:text-5xl text-2xl font-normal text-center text-white">
           Hello, I'm
-          <span className="text-pink-800">Fatik Ahmed Khan</span>,
+          <span className="text-pink-800 text-center"> Fatik Ahmed Khan</span>,
         </h1>
-        <h1 className="md:text-5xl text-2xl font-normal text-white">
+        <h1 className="md:text-5xl text-2xl font-normal text-white text-center">
           I'm full stack web developer
         </h1>
-        <button className="view-button flex items-center gap-5 text-xl font-light mt-3 text-white border-[2px] pl-5 pr-5 pt-2 pb-2 hover:bg-cyan-500 transition-all duration-150 ease-in">
+        <button className="view-button flex items-center text-center gap-5 text-xl font-light mt-3 text-white border-[2px] pl-5 pr-5 pt-2 pb-2 hover:bg-cyan-500 transition-all duration-150 ease-in">
           View my work
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 button-arrow"
+            class="h-7 w-7 button-arrow"
             viewBox="0 0 20 17"
             fill="white"
           >
